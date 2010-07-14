@@ -1,0 +1,12 @@
+tyro compiles source to bytecode and runs the bytecode on a stack based, JVM like, virtual machine
+
+Here's an example of the code you can run:
+
+  a = 1;
+  b = 1;
+  while(b < 1000000000) {
+    print(b);
+    c = b + a;
+    a = b;
+    b = c;
+  }
