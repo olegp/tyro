@@ -1,0 +1,28 @@
+local	3
+push	1
+store	0
+pop
+push	1
+store	1
+pop
+load	1
+push	1000000000
+isub
+ilt
+iff	28
+load	1
+call	0
+pop
+load	1
+load	0
+iadd
+store	2
+pop
+load	1
+store	0
+pop
+load	2
+store	1
+pop
+goto	8
+sys	0

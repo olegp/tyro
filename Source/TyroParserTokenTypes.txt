@@ -1,0 +1,10 @@
+// $ANTLR 2.7.1: Tyro.g -> TyroParserTokenTypes.txt$
+TyroParser    // output token vocab name
+PLUS=4
+SEMI=5
+STAR=6
+INT=7
+WS_=8
+LPAREN=9
+RPAREN=10
+DIGIT=11
